@@ -1,0 +1,79 @@
+{% extends 'layouts/base.html' %}
+
+{% load i18n %}
+{% load static %}
+
+{% block content %}
+  <main>
+
+    {% include 'includes/pre-loader.html' %}
+
+    <!-- Hero -->
+    <section class="section-header overflow-hidden pt-7 pt-lg-8 pb-9 pb-lg-12 bg-primary text-white">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-8 text-center">
+            <div class="bootstrap-big-icon d-none d-lg-block">
+              {% include 'includes/svg_uc.html' %}
+            </div>
+            <h1 class="fw-bolder display-2">Título aquí</h1>
+            <h2 class="lead fw-normal text-muted mb-4 px-lg-20">Línea bonita de texto con una breve descripción del sitio</h2>
+          </div>
+        </div>
+      </div>
+      <figure class="position-absolute bottom-0 left-0 w-100 d-none d-md-block mb-n2">
+        <svg class="fill-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3000 185.4">
+          <path d="M3000,0v185.4H0V0c496.4,115.6,996.4,173.4,1500,173.4S2503.6,115.6,3000,0z"></path>
+        </svg>
+      </figure>
+    </section>
+
+    <!-- Resources Section -->
+    <div class="section mt-4 py-0">
+      <div class="container-fluid mt-n10 mt-lg-n12 z-2">
+        <div class="row justify-content-center">
+          <!-- Collections -->
+          <div class="col-8">
+            <h3 class="mb-4 text-white">Colecciones</h3>
+            {% for collection in collections %}
+              {% if forloop.counter0|divisibleby:5 %}
+                {% if not forloop.first %}
+                  </div>
+                {% endif %}
+                <div class="row">
+              {% endif %}
+              <div class="col d-flex">
+                <div class="card card-body flex-fill bg-white border-light shadow-sm mb-4">
+                  <a href="#" class="stretched-link">{{ collection.name }}</a>
+                </div>
+              </div>
+              {% if forloop.last %}
+                </div>
+              {% endif %}
+            {% endfor %}
+          </div>
+          <!-- Recommended Resources -->
+          <div class="col-4">
+            <h3 class="mb-4 text-white">Recomendados</h3>
+            <div class="card card-body bg-white border-light shadow-sm mb-4">
+              <p class="card-text">;D</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Forum Prev. Section -->
+    <section class="section section-lg">
+      <div class="container-fluid">
+        <div class="row justify-content-center mb-5 mb-lg-6">
+          <h3 class="mb-4">Foros</h3>
+          <div class="card card-body bg-white border-light shadow-sm mb-4">
+            <p>Últimos 10 elementos de la lista de foros en construcción</p>
+            <p class="card-text"><a href="{% url 'forum_list' %}">Foros</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+{% endblock content %}

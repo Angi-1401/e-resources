@@ -1,0 +1,172 @@
+{% extends 'layouts/base.html' %}
+
+{% load i18n %}
+{% load static %}
+
+{% block content %}
+  <main>
+    {% include 'includes/pre-loader.html' %}
+
+    <!-- Hero -->
+    <section class="section-header overflow-hidden pt-7 pt-lg-8 pb-9 pb-lg-12 bg-primary text-white">
+      <div class="container-fluid">
+        <div class="row justify-content-center">
+          <div class="col-12 col-xl-8">
+            <div class="bootstrap-big-icon d-none d-lg-block">
+              {% include 'includes/svg_uc.html' %}
+            </div>
+            <h1 class="fw-lightmb-3">{{ resource.title }}</h1>
+            <div class="row">
+              <div class="col">
+                {% for author in resource.author.all %}
+                  <span class="fw-bold mr-2" style="display: inline-block;">{{ author }}</span>
+                {% endfor %}
+              </div>
+              <div class="col text-end">
+                <span class="fw-bold text-end">{{ resource.publish_date|date:'Y' }}</span>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                {% if resource.edition %}
+                  {{ resource.edition }}
+                {% else %}
+                  Sin edición
+                {% endif %}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Details Section -->
+    <div class="section mt-4 py-0">
+      <div class="container-fluid mt-n10 mt-lg-n12 z-2">
+        <div class="row justify-content-center">
+          <div class="col-3 d-flex flex-column">
+            <div class="card flex-fill bg-white border-light shadow-sm mb-4">
+              <div class="card-header">Información General</div>
+              <div class="card-body">
+                <p class="card-text">
+                  <strong>ID:</strong>{{ resource.international_id }}
+                </p>
+                <p class="card-text">
+                  <strong>Clasificación:</strong>{{ resource.classification }}
+                </p>
+                <p class="card-text">
+                  <strong>Extensión:</strong>{{ resource.extension }}
+                </p>
+                <p class="card-text">
+                  <strong>Cobertura:</strong>{{ resource.coverage_start|date:'Y' }} - {{ resource.coverage_end|date:'Y' }}
+                </p>
+              </div>
+            </div>
+            <div class="card flex-fill bg-white border-light shadow-sm mb-4"></div>
+          </div>
+          <div class="col-9 d-flex flex-column">
+            <div class="card flex-fill bg-white border-light shadow-sm mb-4">
+              <div class="card-header">Resumen</div>
+              <div class="card-body">
+                <p class="card-text">{{ resource.abstract }}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col d-flex flex-column">
+            <div class="card flex-fill bg-white border-light shadow-sm mb-4">
+              <div class="card-header">Procedencia del contenido</div>
+              <div class="card-body">
+                <p class="card-text">
+                  <strong>Entidad o Dependencia:</strong>{{ resource.publisher }}
+                </p>
+                <p class="card-text">
+                  <strong>Colección:</strong>{{ resource.collection }}
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex flex-column">
+            <div class="card flex-fill bg-white border-light shadow-sm mb-4">
+              <div class="card-header">Categorización según estudios</div>
+              <div class="card-body">
+                <p class="card-text">
+                  <strong>Facultades:</strong>
+                  {% for faculty in resource.faculty.all %}
+                    {{ faculty }}
+                  {% endfor %}
+                </p>
+                <p class="card-text">
+                  <strong>Escuelas:</strong>
+                  {% for school in resource.school.all %}
+                    {{ school }}
+                  {% endfor %}
+                </p>
+                <p class="card-text">
+                  <strong>Carreras:</strong>
+                  {% for career in resource.career.all %}
+                    {{ career }}
+                  {% endfor %}
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex flex-column">
+            <div class="card flex-fill bg-white border-light shadow-sm mb-4">
+              <div class="card-header">Categorización según temarios</div>
+              <div class="card-body">
+                <p class="card-text">
+                  <strong>Asignaturas:</strong>
+                  {% for subject in resource.subject.all %}
+                    {{ subject }}
+                  {% endfor %}
+                </p>
+                <p class="card-text">
+                  <strong>Temas:</strong>
+                  {% for theme in resource.theme.all %}
+                    {{ theme }}
+                  {% endfor %}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-5 d-flex flex-column">
+            <div class="card flex-fill bg-white border-light shadow-sm mb-4">
+              <div class="card-header">Licencia</div>
+            </div>
+          </div>
+          <div class="col-7 d-flex flex-column">
+            <div class="card flex-fill bg-white border-light shadow-sm mb-4">
+              <div class="card-header">Otros</div>
+              <div class="card-body">
+                <p class="card-text">
+                  <strong>Fecha de Adquisición:</strong>{{ resource.adquisition_date }}
+                </p>
+                <p class="card-text">
+                  <strong>Idioma:</strong>{{ resource.language }}
+                </p>
+                <p class="card-text">
+                  <strong>Formatos:</strong>
+                  {% for format in resource.format.all %}
+                    {{ format }}
+                  {% endfor %}
+                </p>
+                <p class="card-text">
+                  <strong>Ubicación:</strong>
+                  {% if resource.location %}
+                    {{ resource.location }}
+                  {% else %}
+                    N/A.
+                  {% endif %}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+{% endblock %}

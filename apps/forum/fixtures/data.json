@@ -1,0 +1,10 @@
+[
+    {
+        "model": "forum.forum",
+        "pk": "a950f43d-8c30-4be2-b4ec-56182fe577b3",
+        "fields": {
+            "resource": "a950f43d-8c30-4be2-b4ec-56182fe577b3",
+            "timestamp": "2021-12-01T00:00:00+00:00"
+        }
+    }
+]

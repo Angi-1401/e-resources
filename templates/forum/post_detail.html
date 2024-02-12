@@ -1,0 +1,44 @@
+{% extends 'layouts/base.html' %}
+
+{% load i18n %}
+{% load static %}
+
+{% block content %}
+  <main>
+    {% include 'includes/pre-loader.html' %}
+
+    <!-- Hero -->
+    <section class="section-header overflow-hidden pt-7 pt-lg-8 pb-9 pb-lg-12 bg-primary text-white">
+      <div class="container-fluid">
+        <div class="row justify-content-center">
+          <div class="col-12 col-xl-8">
+            <div class="bootstrap-big-icon d-none d-lg-block">
+              {% include 'includes/svg_uc.html' %}
+            </div>
+            <h1 class="fw-lightmb-3">{{ post.title }}</h1>
+            <div class="row">
+              <div class="col">
+                {% for author in resource.author.all %}
+                  <span class="fw-bold mr-2" style="display: inline-block;">{{ author }}</span>
+                {% endfor %}
+              </div>
+              <div class="col text-end">
+                <span class="fw-bold text-end">{{ resource.publish_date|date:'Y' }}</span>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                {% if resource.edition %}
+                  {{ resource.edition }}
+                {% else %}
+                  Sin edición
+                {% endif %}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+{% endblock %}

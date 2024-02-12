@@ -1,0 +1,64 @@
+{% extends 'layouts/base.html' %}
+
+{% load i18n %}
+{% load static %}
+
+{% block header %}
+{% endblock %}
+
+{% block content %}
+  <main>
+    {% include 'includes/pre-loader.html' %}
+
+    <!-- Register Section -->
+    <section class="min-vh-100 d-flex align-items-center section-image overlay-soft-dark" data-background="{% static 'assets/img/pages/form-image.jpg' %}">
+      <div class="container mt-5 mb-5">
+        <div class="row justify-content-center">
+          <div class="col-12 d-flex align-items-center justify-content-center">
+            <div class="signin-inner my-4 my-lg-0 bg-white shadow-soft border rounded border-gray-300 p-4 p-lg-5 w-100 fmxw-500">
+              <div class="text-center text-md-center mb-4 mt-md-0">
+                <a href="/"><img src="{% static 'assets/img/brand/dark.svg' %}" alt="Themesberg logo" width="30" height="30" /></a>
+                <h1 class="mt-3 mb-0 h3">Registro de Nuevo Usuario</h1>
+              </div>
+
+              <!-- Register Form -->
+              <form method="post">
+                {% csrf_token %}
+                {% for field in form %}
+                  <div class="form-group mb-4">
+                    <label for="email">{{ field.label }}</label>
+                    <div class="input-group">
+                      <span class="input-group-text" id="basic-addon3">
+                        <span class="fas {% if field.name == 'email' %} fa-envelope {% elif field.name == 'username' %} fa-user {% else %} fa-unlock-alt {% endif %}"></span>
+                      </span>
+                      {{ field }}
+                    </div>
+                    <small>{{ field.help_text }}</small>
+                  </div>
+                  <span class="text-danger">{{ field.errors }}</span>
+                {% endfor %}
+                <div class="form-check mb-4">
+                  <input class="form-check-input" type="checkbox" value="" id="terms" />
+                  <label class="form-check-label" for="terms">Acepto los <a href="#">términos y condiciones</a></label>
+                </div>
+                <div class="d-grid">
+                  <button type="submit" class="btn btn-primary">Registrarse</button>
+                </div>
+              </form>
+
+              <div class="d-flex justify-content-center align-items-center mt-4">
+                <span class="fw-normal">
+                  ¿Ya tienes una cuenta?
+                  <a href="{% url 'login' %}" class="fw-bold text-underline">Inicia sesión</a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+{% endblock %}
+
+{% block footer %}
+{% endblock %}

@@ -1,0 +1,56 @@
+{% extends 'layouts/base.html' %}
+
+{% load crispy_forms_tags %}
+{% load i18n %}
+{% load render_table from django_tables2 %}
+{% load static %}
+
+{% block styles %}
+  <link href="{% static 'css/progress_bar.css' %}" rel="stylesheet" />
+{% endblock %}
+
+{% block content %}
+  <main>
+    {% include 'includes/pre-loader.html' %}
+
+    <!-- Hero -->
+    <section class="section-header overflow-hidden pt-7 pt-lg-8 pb-9 pb-lg-12 bg-primary text-white">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-8 text-center">
+            <div class="bootstrap-big-icon d-none d-lg-block">
+              {% include 'includes/svg_uc.html' %}
+            </div>
+            <h1 class="fw-bolder display-2">Título aquí</h1>
+            <h2 class="lead fw-normal text-muted mb-4 px-lg-20">Línea bonita de texto con una breve descripción del sitio</h2>
+            <!-- Search Bar -->
+            <div class="mb-3">
+              <form method="get" class="form-inline" hx-get="{% url 'forum_list' %}" hx-target="div.table-container" hx-swap="outerHTML" hx-indicator=".progress">{{ filter.form.resource__title|as_crispy_field }}</form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Forums Section -->
+    <div class="section mt-4 py-0">
+      <div class="container-fluid mt-n10 mt-lg-n12 z-2">
+        <div class="row justify-content-center">
+          <!-- Forums Table -->
+          <div class="col-12">
+            <div class="card card-body bg-white border-light shadow-sm mb-4">
+              <div class="progress">
+                <div class="indeterminate"></div>
+              </div>
+              {% render_table table %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+{% endblock %}
+
+{% block scripts %}
+  <script src="https://unpkg.com/htmx.org@1.7.0"></script>
+{% endblock %}

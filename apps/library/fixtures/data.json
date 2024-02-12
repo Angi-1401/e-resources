@@ -1,0 +1,1109 @@
+[
+    {
+        "model": "library.author",
+        "pk": "70ea58f7-f3fa-4e5b-8727-1b6970d54b2c",
+        "fields": {
+            "first_name": "Mileidis",
+            "last_name": "Camacho"
+        }
+    },
+    {
+        "model": "library.author",
+        "pk": "f92cc62f-ab2b-4147-a2e5-06fed6e70b08",
+        "fields": {
+            "first_name": "Charón América",
+            "last_name": "Soto Álvarez"
+        }
+    },
+    {
+        "model": "library.classification",
+        "pk": "257ae15f-9d5e-4b7a-8147-43b839d86674",
+        "fields": {
+            "name": "Patente"
+        }
+    },
+    {
+        "model": "library.classification",
+        "pk": "30c90610-277a-4a5e-a94c-56fe8cd2914c",
+        "fields": {
+            "name": "Libro Electrónico"
+        }
+    },
+    {
+        "model": "library.classification",
+        "pk": "453e1a07-3767-4ed3-802b-2938bb1cf29c",
+        "fields": {
+            "name": "Artículo de Revista"
+        }
+    },
+    {
+        "model": "library.classification",
+        "pk": "66853749-7969-473f-943c-e00258170602",
+        "fields": {
+            "name": "Informes, Documentos de Trabajo"
+        }
+    },
+    {
+        "model": "library.classification",
+        "pk": "6f147a7b-a646-49a7-8174-b54d58b047d8",
+        "fields": {
+            "name": "Trabajo de Pregrado"
+        }
+    },
+    {
+        "model": "library.classification",
+        "pk": "75883982-5a32-40cf-b90e-b1c718f17bae",
+        "fields": {
+            "name": "Libro"
+        }
+    },
+    {
+        "model": "library.classification",
+        "pk": "983044b2-52e8-4c6c-96b8-ae6a866cf02e",
+        "fields": {
+            "name": "Trabajo de Ascenso"
+        }
+    },
+    {
+        "model": "library.classification",
+        "pk": "bcd5f547-3ed6-47fc-9ba3-7537e4fd4551",
+        "fields": {
+            "name": "Tesis Doctoral"
+        }
+    },
+    {
+        "model": "library.classification",
+        "pk": "bea7d73d-e53b-46ed-99e4-28144eebb732",
+        "fields": {
+            "name": "Trabajo de Posgrado"
+        }
+    },
+    {
+        "model": "library.classification",
+        "pk": "d533dc99-9b68-41a3-ace3-823304880cb9",
+        "fields": {
+            "name": "Cursos, Materiales Instruccionales"
+        }
+    },
+    {
+        "model": "library.classification",
+        "pk": "dbdc1fa8-7196-4fac-a996-d7072be85932",
+        "fields": {
+            "name": "Memorias de Conferencia"
+        }
+    },
+    {
+        "model": "library.classification",
+        "pk": "e2e4844f-4fe7-49ff-88ac-28f718924679",
+        "fields": {
+            "name": "Material de Divulgación"
+        }
+    },
+    {
+        "model": "library.source",
+        "pk": "529b60bf-b4cb-4cba-a92f-c3971d120c08",
+        "fields": {
+            "name": "Repositorio Institucional Universidad de Carabobo"
+        }
+    },
+    {
+        "model": "library.publisher",
+        "pk": "ee9b28c9-c427-4e8f-b7ad-7470ec7d3879",
+        "fields": {
+            "name": "Universidad de Carabobo (U.C.)"
+        }
+    },
+    {
+        "model": "library.collection",
+        "pk": "0e2167e4-1e2c-471b-99f5-83a4539a762d",
+        "fields": {
+            "name": "Gestión Universitaria"
+        }
+    },
+    {
+        "model": "library.collection",
+        "pk": "121eacdb-7798-4177-a08b-b60cc972ab83",
+        "fields": {
+            "name": "Ética"
+        }
+    },
+    {
+        "model": "library.collection",
+        "pk": "26df82cf-b430-49e1-b6e4-1a5025e23a09",
+        "fields": {
+            "name": "Política, Estado, Derecho y Sociedad"
+        }
+    },
+    {
+        "model": "library.collection",
+        "pk": "387355dc-95b7-4450-ac50-b0240f62a285",
+        "fields": {
+            "name": "Sistemas Productivos y Desarrollo Sustentable"
+        }
+    },
+    {
+        "model": "library.collection",
+        "pk": "68568c0d-3a17-4f80-8985-9144404dfef6",
+        "fields": {
+            "name": "Geopolítica"
+        }
+    },
+    {
+        "model": "library.collection",
+        "pk": "808b5179-c2aa-4487-bd30-f3dfc53b56ad",
+        "fields": {
+            "name": "Ambiente"
+        }
+    },
+    {
+        "model": "library.collection",
+        "pk": "9df5c6da-4fc4-4a42-bad1-258ba59ac3a5",
+        "fields": {
+            "name": "Cultura"
+        }
+    },
+    {
+        "model": "library.collection",
+        "pk": "9e04a6db-3f8d-40b3-90ba-aea76ff2656a",
+        "fields": {
+            "name": "Tecnología"
+        }
+    },
+    {
+        "model": "library.collection",
+        "pk": "aa94d5dc-47f9-4694-9705-aef1c4a557ee",
+        "fields": {
+            "name": "Energía"
+        }
+    },
+    {
+        "model": "library.collection",
+        "pk": "adfc0a5a-c19b-43e7-a051-7e4695d16570",
+        "fields": {
+            "name": "Salud"
+        }
+    },
+    {
+        "model": "library.collection",
+        "pk": "b4310ca9-b5ed-4fc5-8c8c-6aa2d2496e87",
+        "fields": {
+            "name": "Calidad de Vida"
+        }
+    },
+    {
+        "model": "library.collection",
+        "pk": "c8077758-b059-4b92-afac-9129e251590c",
+        "fields": {
+            "name": "Educación"
+        }
+    },
+    {
+        "model": "library.collection",
+        "pk": "ceb63002-ed33-4ba8-8dd0-ce3cce6e2b26",
+        "fields": {
+            "name": "Patrimonio UC"
+        }
+    },
+    {
+        "model": "library.collection",
+        "pk": "de3718a5-5770-4504-8e3f-699c4cfb0385",
+        "fields": {
+            "name": "Tecnología y Comunicación"
+        }
+    },
+    {
+        "model": "library.collection",
+        "pk": "fc761366-7346-441f-8a43-31fdfffc3c3a",
+        "fields": {
+            "name": "Tecnología"
+        }
+    },
+    {
+        "model": "library.faculty",
+        "pk": "042a85c3-bafe-4f66-a71d-4c457e102680",
+        "fields": {
+            "name": "Facultad de Ingeniería (FACING)"
+        }
+    },
+    {
+        "model": "library.faculty",
+        "pk": "5645ee07-f218-4ef0-852c-5291403301ea",
+        "fields": {
+            "name": "Facultad de Ciencias Jurídicas y Políticas (FCJP)"
+        }
+    },
+    {
+        "model": "library.faculty",
+        "pk": "75ef5ece-28b1-4d27-afc3-034e2cbd799f",
+        "fields": {
+            "name": "Facultad de Ciencias de la Educación (FACE)"
+        }
+    },
+    {
+        "model": "library.faculty",
+        "pk": "7804a209-0daf-44b0-8636-8a836e8cb4df",
+        "fields": {
+            "name": "Facultad Experimental Ciencias y Tecnología (FACYT)"
+        }
+    },
+    {
+        "model": "library.faculty",
+        "pk": "8f36f7d5-f7c6-404f-91e9-39d1ee562178",
+        "fields": {
+            "name": "Facultad de Ciencias Económicas y Sociales (FACES)"
+        }
+    },
+    {
+        "model": "library.faculty",
+        "pk": "ab389671-8082-48d8-ac00-c813c273b090",
+        "fields": {
+            "name": "Facultad de Odontología (FAO)"
+        }
+    },
+    {
+        "model": "library.faculty",
+        "pk": "d40084bf-8272-4aec-b1bd-4578cb9ea241",
+        "fields": {
+            "name": "Facultad de Ciencias de la Salud (FCS)"
+        }
+    },
+    {
+        "model": "library.school",
+        "pk": "07a6fe30-73ab-405d-a63b-f4ed588527d0",
+        "fields": {
+            "name": "Escuela de Ciencias Biomédicas y Tecnológicas",
+            "faculty": "d40084bf-8272-4aec-b1bd-4578cb9ea241"
+        }
+    },
+    {
+        "model": "library.school",
+        "pk": "1e46c2e2-a640-4b36-9f0a-f7d4dfbcc26a",
+        "fields": {
+            "name": "Escuela de Ingeniería de Telecomunicaciones",
+            "faculty": "042a85c3-bafe-4f66-a71d-4c457e102680"
+        }
+    },
+    {
+        "model": "library.school",
+        "pk": "1fb11751-53dd-4225-8f47-90e0045687fe",
+        "fields": {
+            "name": "Departamento de Química",
+            "faculty": "7804a209-0daf-44b0-8636-8a836e8cb4df"
+        }
+    },
+    {
+        "model": "library.school",
+        "pk": "24e23a9a-da73-49fa-bbc9-cd187432add0",
+        "fields": {
+            "name": "Escuela de Arquitectura",
+            "faculty": "042a85c3-bafe-4f66-a71d-4c457e102680"
+        }
+    },
+    {
+        "model": "library.school",
+        "pk": "28116c51-27c3-4064-bc33-cafb2e9b770c",
+        "fields": {
+            "name": "Departamento de Física",
+            "faculty": "7804a209-0daf-44b0-8636-8a836e8cb4df"
+        }
+    },
+    {
+        "model": "library.school",
+        "pk": "56643a2a-e8c9-4dbd-88a6-69305d72b0e3",
+        "fields": {
+            "name": "Escuela de Salud P·blica y Desarrollo Social",
+            "faculty": "d40084bf-8272-4aec-b1bd-4578cb9ea241"
+        }
+    },
+    {
+        "model": "library.school",
+        "pk": "58b2f2ba-532b-4ebb-8c27-7e5c30c5ac44",
+        "fields": {
+            "name": "Departamento de Ciencias Ambientales",
+            "faculty": "7804a209-0daf-44b0-8636-8a836e8cb4df"
+        }
+    },
+    {
+        "model": "library.school",
+        "pk": "59af3d80-5ce8-4193-850c-0c92b747e7f0",
+        "fields": {
+            "name": "Escuela de Relaciones Industriales",
+            "faculty": "8f36f7d5-f7c6-404f-91e9-39d1ee562178"
+        }
+    },
+    {
+        "model": "library.school",
+        "pk": "5f3731e7-21b8-4c96-bee8-7ba0100e5e8d",
+        "fields": {
+            "name": "Escuela de Bioanßlisis",
+            "faculty": "d40084bf-8272-4aec-b1bd-4578cb9ea241"
+        }
+    },
+    {
+        "model": "library.school",
+        "pk": "65fdf9c0-d1cf-4f6d-b7ec-6243296d7905",
+        "fields": {
+            "name": "Escuela de Ingeniería Eléctrica",
+            "faculty": "042a85c3-bafe-4f66-a71d-4c457e102680"
+        }
+    },
+    {
+        "model": "library.school",
+        "pk": "6a68da1b-c2e9-469f-b48a-f367dcdd9d9e",
+        "fields": {
+            "name": "Departamento de Computación",
+            "faculty": "7804a209-0daf-44b0-8636-8a836e8cb4df"
+        }
+    },
+    {
+        "model": "library.school",
+        "pk": "7d302891-a653-4b02-a788-275301a9a4e4",
+        "fields": {
+            "name": "Escuela de Derecho",
+            "faculty": "5645ee07-f218-4ef0-852c-5291403301ea"
+        }
+    },
+    {
+        "model": "library.school",
+        "pk": "81f5795c-fbe4-420b-abb4-4feef6260e5f",
+        "fields": {
+            "name": "Escuela de Estudios Políticos y Fiscales",
+            "faculty": "5645ee07-f218-4ef0-852c-5291403301ea"
+        }
+    },
+    {
+        "model": "library.school",
+        "pk": "848b1672-fdc7-4160-94da-73732a74730b",
+        "fields": {
+            "name": "Escuela de Educación",
+            "faculty": "75ef5ece-28b1-4d27-afc3-034e2cbd799f"
+        }
+    },
+    {
+        "model": "library.school",
+        "pk": "8df8d9ad-830d-44a3-bcd5-483fd818c53e",
+        "fields": {
+            "name": "Escuela de Administración y Contaduría",
+            "faculty": "8f36f7d5-f7c6-404f-91e9-39d1ee562178"
+        }
+    },
+    {
+        "model": "library.school",
+        "pk": "a9a816a6-cab6-4490-a70f-c2002e2da78b",
+        "fields": {
+            "name": "Escuela de Ingeniería Química",
+            "faculty": "042a85c3-bafe-4f66-a71d-4c457e102680"
+        }
+    },
+    {
+        "model": "library.school",
+        "pk": "ae7ec76d-632b-4903-b17a-19c43f07db74",
+        "fields": {
+            "name": "Escuela de Odontología",
+            "faculty": "ab389671-8082-48d8-ac00-c813c273b090"
+        }
+    },
+    {
+        "model": "library.school",
+        "pk": "b875eaf9-ec89-4d9c-9da8-58dcb3907185",
+        "fields": {
+            "name": "Escuela de Medicina",
+            "faculty": "d40084bf-8272-4aec-b1bd-4578cb9ea241"
+        }
+    },
+    {
+        "model": "library.school",
+        "pk": "b9951e2c-4ce9-4b3a-a0ca-43b1b4ded039",
+        "fields": {
+            "name": "Escuela de Ingeniería Industrial",
+            "faculty": "042a85c3-bafe-4f66-a71d-4c457e102680"
+        }
+    },
+    {
+        "model": "library.school",
+        "pk": "ceaa65f2-8035-414a-bbb5-673a361a88e9",
+        "fields": {
+            "name": "Departamento de Matemßticas",
+            "faculty": "7804a209-0daf-44b0-8636-8a836e8cb4df"
+        }
+    },
+    {
+        "model": "library.school",
+        "pk": "d07563ff-59fe-4b8a-9ca5-121264d47af6",
+        "fields": {
+            "name": "Escuela de Economía",
+            "faculty": "8f36f7d5-f7c6-404f-91e9-39d1ee562178"
+        }
+    },
+    {
+        "model": "library.school",
+        "pk": "d7667552-2a10-4191-9cb5-c937ecc4047c",
+        "fields": {
+            "name": "Departamento de Biología",
+            "faculty": "7804a209-0daf-44b0-8636-8a836e8cb4df"
+        }
+    },
+    {
+        "model": "library.school",
+        "pk": "d8c1eb55-75ab-4c6b-a2ae-33067f8a1fb4",
+        "fields": {
+            "name": "Escuela de Ingeniería Mecßnica",
+            "faculty": "042a85c3-bafe-4f66-a71d-4c457e102680"
+        }
+    },
+    {
+        "model": "library.school",
+        "pk": "db001628-ec5e-4733-9a0f-a36648531abe",
+        "fields": {
+            "name": "Escuela de Ingeniería Civil",
+            "faculty": "042a85c3-bafe-4f66-a71d-4c457e102680"
+        }
+    },
+    {
+        "model": "library.school",
+        "pk": "e0d2dbc7-8e90-4890-907e-8b3b478acad3",
+        "fields": {
+            "name": "Escuela de Ciencias Forenses",
+            "faculty": "5645ee07-f218-4ef0-852c-5291403301ea"
+        }
+    },
+    {
+        "model": "library.school",
+        "pk": "fea09856-5e32-4a99-a711-b66eb5a5984a",
+        "fields": {
+            "name": "Escuela de Enfermería",
+            "faculty": "d40084bf-8272-4aec-b1bd-4578cb9ea241"
+        }
+    },
+    {
+        "model": "library.career",
+        "pk": "078d37ba-87a2-4d3b-be09-d61692611c22",
+        "fields": {
+            "name": "Educación, Mención Francés",
+            "school": "848b1672-fdc7-4160-94da-73732a74730b"
+        }
+    },
+    {
+        "model": "library.career",
+        "pk": "0a24869f-72fb-41b3-bc8f-6883ee4ec46d",
+        "fields": {
+            "name": "Educación",
+            "school": "848b1672-fdc7-4160-94da-73732a74730b"
+        }
+    },
+    {
+        "model": "library.career",
+        "pk": "0eaa07e2-fbe6-4345-93a3-8f2a1e214103",
+        "fields": {
+            "name": "Educación, Mención Inglés",
+            "school": "848b1672-fdc7-4160-94da-73732a74730b"
+        }
+    },
+    {
+        "model": "library.career",
+        "pk": "1aa2884b-a905-4c07-a87b-fdc3af4c139a",
+        "fields": {
+            "name": "Ingeniería de Telecomunicaciones",
+            "school": "1e46c2e2-a640-4b36-9f0a-f7d4dfbcc26a"
+        }
+    },
+    {
+        "model": "library.career",
+        "pk": "205f7912-4163-4bbd-bdc9-56a5e576851d",
+        "fields": {
+            "name": "Ingeniería Civil",
+            "school": "db001628-ec5e-4733-9a0f-a36648531abe"
+        }
+    },
+    {
+        "model": "library.career",
+        "pk": "25ea2b03-f845-451d-8f7d-dfbc15ea91cb",
+        "fields": {
+            "name": "Educación Física, Deportes y Recreación",
+            "school": "848b1672-fdc7-4160-94da-73732a74730b"
+        }
+    },
+    {
+        "model": "library.career",
+        "pk": "2668a821-8464-4fd0-ae14-bfc4086199f8",
+        "fields": {
+            "name": "Educación, Mención Matemßticas",
+            "school": "848b1672-fdc7-4160-94da-73732a74730b"
+        }
+    },
+    {
+        "model": "library.career",
+        "pk": "2bbc094a-4b7b-4945-9633-1e5ceda3b71e",
+        "fields": {
+            "name": "TSU Citotecnología",
+            "school": "07a6fe30-73ab-405d-a63b-f4ed588527d0"
+        }
+    },
+    {
+        "model": "library.career",
+        "pk": "2d184a7e-ac09-4166-9976-67d26b4684cb",
+        "fields": {
+            "name": "Odontología",
+            "school": "ae7ec76d-632b-4903-b17a-19c43f07db74"
+        }
+    },
+    {
+        "model": "library.career",
+        "pk": "372f591e-4e6b-4531-b4f0-2ed42714e588",
+        "fields": {
+            "name": "Educación, Mención Biología",
+            "school": "848b1672-fdc7-4160-94da-73732a74730b"
+        }
+    },
+    {
+        "model": "library.career",
+        "pk": "3972bb2f-e3d7-4781-898d-ab982312ccfb",
+        "fields": {
+            "name": "Bioanßlisis",
+            "school": "5f3731e7-21b8-4c96-bee8-7ba0100e5e8d"
+        }
+    },
+    {
+        "model": "library.career",
+        "pk": "3a604f1e-c966-42e5-8007-9614f124b3a3",
+        "fields": {
+            "name": "Derecho",
+            "school": "7d302891-a653-4b02-a788-275301a9a4e4"
+        }
+    },
+    {
+        "model": "library.career",
+        "pk": "3cd67886-5dfb-46cd-bfd1-0b992eca5077",
+        "fields": {
+            "name": "Educación Preescolar",
+            "school": "848b1672-fdc7-4160-94da-73732a74730b"
+        }
+    },
+    {
+        "model": "library.career",
+        "pk": "3d0451cc-c585-41f5-b4df-1e711a73c483",
+        "fields": {
+            "name": "Relaciones Industriales",
+            "school": "59af3d80-5ce8-4193-850c-0c92b747e7f0"
+        }
+    },
+    {
+        "model": "library.career",
+        "pk": "41efabac-d330-456f-8755-211e817c5f1a",
+        "fields": {
+            "name": "Educación Integral",
+            "school": "848b1672-fdc7-4160-94da-73732a74730b"
+        }
+    },
+    {
+        "model": "library.career",
+        "pk": "4800e9ab-3708-4051-800d-ee46cc560f58",
+        "fields": {
+            "name": "TSU Terapia Psicosocial",
+            "school": "56643a2a-e8c9-4dbd-88a6-69305d72b0e3"
+        }
+    },
+    {
+        "model": "library.career",
+        "pk": "5685834c-231c-4bf0-a12a-44ba61b78bcc",
+        "fields": {
+            "name": "Educación, Mención Química",
+            "school": "848b1672-fdc7-4160-94da-73732a74730b"
+        }
+    },
+    {
+        "model": "library.career",
+        "pk": "68600562-042f-4be8-a340-ab5f31d64e69",
+        "fields": {
+            "name": "Ciencias Forenses",
+            "school": "e0d2dbc7-8e90-4890-907e-8b3b478acad3"
+        }
+    },
+    {
+        "model": "library.career",
+        "pk": "6a5cb3cb-c288-4db0-86bb-aaf7db78c2fd",
+        "fields": {
+            "name": "Ingeniería Química",
+            "school": "a9a816a6-cab6-4490-a70f-c2002e2da78b"
+        }
+    },
+    {
+        "model": "library.career",
+        "pk": "6b1e8a4d-4e5a-4baf-9b90-5d64da4c0e71",
+        "fields": {
+            "name": "Economía",
+            "school": "d07563ff-59fe-4b8a-9ca5-121264d47af6"
+        }
+    },
+    {
+        "model": "library.career",
+        "pk": "6dd92a1e-de55-4357-8832-f151e69436e6",
+        "fields": {
+            "name": "Ciencias de la Computación",
+            "school": "6a68da1b-c2e9-469f-b48a-f367dcdd9d9e"
+        }
+    },
+    {
+        "model": "library.career",
+        "pk": "71b832bf-c83d-4d79-9af5-2954d733e5a6",
+        "fields": {
+            "name": "Matemßticas",
+            "school": "ceaa65f2-8035-414a-bbb5-673a361a88e9"
+        }
+    },
+    {
+        "model": "library.career",
+        "pk": "7920a683-33bb-4fff-a176-ec736686b091",
+        "fields": {
+            "name": "TSU Imagenología",
+            "school": "07a6fe30-73ab-405d-a63b-f4ed588527d0"
+        }
+    },
+    {
+        "model": "library.career",
+        "pk": "7a54240b-ab5d-4f23-9cdc-17aa55df83a5",
+        "fields": {
+            "name": "Educación, Mención Informßtica",
+            "school": "848b1672-fdc7-4160-94da-73732a74730b"
+        }
+    },
+    {
+        "model": "library.career",
+        "pk": "7eaf15ac-f7e9-4925-a893-88f9ff03cafd",
+        "fields": {
+            "name": "Ingeniería Eléctrica",
+            "school": "65fdf9c0-d1cf-4f6d-b7ec-6243296d7905"
+        }
+    },
+    {
+        "model": "library.career",
+        "pk": "7fdf40ad-900f-4639-8287-0006ea44feff",
+        "fields": {
+            "name": "Educación, Mención Artes Plßsticas",
+            "school": "848b1672-fdc7-4160-94da-73732a74730b"
+        }
+    },
+    {
+        "model": "library.career",
+        "pk": "83fe0d94-3683-43a1-b4c9-085b9bd0ad9a",
+        "fields": {
+            "name": "Ciencias Ambientales",
+            "school": "58b2f2ba-532b-4ebb-8c27-7e5c30c5ac44"
+        }
+    },
+    {
+        "model": "library.career",
+        "pk": "8c7014e6-4979-4a98-b7e8-f6d35682ba4f",
+        "fields": {
+            "name": "Psicología",
+            "school": "56643a2a-e8c9-4dbd-88a6-69305d72b0e3"
+        }
+    },
+    {
+        "model": "library.career",
+        "pk": "9d9d17b5-74a6-47a4-8c28-d9593942f92b",
+        "fields": {
+            "name": "Educación, Mención Lengua y Literatura",
+            "school": "848b1672-fdc7-4160-94da-73732a74730b"
+        }
+    },
+    {
+        "model": "library.career",
+        "pk": "a87d32c4-06bd-473f-a774-e0df9e4392c9",
+        "fields": {
+            "name": "Educación, Mención Informßtica",
+            "school": "848b1672-fdc7-4160-94da-73732a74730b"
+        }
+    },
+    {
+        "model": "library.career",
+        "pk": "ac31d0a6-2d3d-44d1-9aba-8a52a97548f5",
+        "fields": {
+            "name": "Física",
+            "school": "28116c51-27c3-4064-bc33-cafb2e9b770c"
+        }
+    },
+    {
+        "model": "library.career",
+        "pk": "acd1613e-d6d5-4833-b238-5bdc5d52f3a7",
+        "fields": {
+            "name": "TSU Tecnología Cardiopulmonar",
+            "school": "07a6fe30-73ab-405d-a63b-f4ed588527d0"
+        }
+    },
+    {
+        "model": "library.career",
+        "pk": "af013118-f646-495d-b3f2-b2c2009ee6aa",
+        "fields": {
+            "name": "Arquitectura",
+            "school": "24e23a9a-da73-49fa-bbc9-cd187432add0"
+        }
+    },
+    {
+        "model": "library.career",
+        "pk": "b1e7bb1c-ff5f-4a43-b4f2-17315a9bcd3a",
+        "fields": {
+            "name": "Eduación para el Trabajo (Comercial)",
+            "school": "848b1672-fdc7-4160-94da-73732a74730b"
+        }
+    },
+    {
+        "model": "library.career",
+        "pk": "b589fe12-850c-46a2-8c17-f0d80f2a130a",
+        "fields": {
+            "name": "TSU Histotecnología",
+            "school": "07a6fe30-73ab-405d-a63b-f4ed588527d0"
+        }
+    },
+    {
+        "model": "library.career",
+        "pk": "b5ae9843-e56d-4825-bb6c-035e221ca4d4",
+        "fields": {
+            "name": "Fisioterapia",
+            "school": "56643a2a-e8c9-4dbd-88a6-69305d72b0e3"
+        }
+    },
+    {
+        "model": "library.career",
+        "pk": "b81d8d1a-3b82-41f4-b2e2-0141862cd52e",
+        "fields": {
+            "name": "Educación Musical",
+            "school": "848b1672-fdc7-4160-94da-73732a74730b"
+        }
+    },
+    {
+        "model": "library.career",
+        "pk": "bb6190b4-68cb-4124-952e-6d1b36490e2b",
+        "fields": {
+            "name": "Contaduría P·blica",
+            "school": "8df8d9ad-830d-44a3-bcd5-483fd818c53e"
+        }
+    },
+    {
+        "model": "library.career",
+        "pk": "c58becd6-f069-498e-8e23-2082116f9340",
+        "fields": {
+            "name": "Medicina",
+            "school": "b875eaf9-ec89-4d9c-9da8-58dcb3907185"
+        }
+    },
+    {
+        "model": "library.career",
+        "pk": "c6a4e5a4-5a16-4b11-97b7-390ae7754c7c",
+        "fields": {
+            "name": "TSU Registros y Estadísticas de Salud",
+            "school": "56643a2a-e8c9-4dbd-88a6-69305d72b0e3"
+        }
+    },
+    {
+        "model": "library.career",
+        "pk": "cdb623d2-1d90-4140-970b-ab02c8db5cb9",
+        "fields": {
+            "name": "Administración Comercial",
+            "school": "8df8d9ad-830d-44a3-bcd5-483fd818c53e"
+        }
+    },
+    {
+        "model": "library.career",
+        "pk": "d36a1232-a443-4e60-a0a5-1abf98e99ea6",
+        "fields": {
+            "name": "Educación, Mención Orientación",
+            "school": "848b1672-fdc7-4160-94da-73732a74730b"
+        }
+    },
+    {
+        "model": "library.career",
+        "pk": "d63077ce-f71b-40c6-b45c-2de3131cbb23",
+        "fields": {
+            "name": "Ciencias Políticas",
+            "school": "81f5795c-fbe4-420b-abb4-4feef6260e5f"
+        }
+    },
+    {
+        "model": "library.career",
+        "pk": "d6d3e88f-62ad-42cb-9b9e-02c9ffe12ed5",
+        "fields": {
+            "name": "Ciencias Fiscales",
+            "school": "81f5795c-fbe4-420b-abb4-4feef6260e5f"
+        }
+    },
+    {
+        "model": "library.career",
+        "pk": "da2fe196-6d95-4627-b7cc-70a08b1eb06f",
+        "fields": {
+            "name": "Educación, Mención Física",
+            "school": "848b1672-fdc7-4160-94da-73732a74730b"
+        }
+    },
+    {
+        "model": "library.career",
+        "pk": "e13451b1-8238-458f-9397-200ddcb4d76d",
+        "fields": {
+            "name": "Ingeniería Mecßnica",
+            "school": "d8c1eb55-75ab-4c6b-a2ae-33067f8a1fb4"
+        }
+    },
+    {
+        "model": "library.career",
+        "pk": "e69e992d-dc65-49b1-871a-38fc950b4211",
+        "fields": {
+            "name": "Química",
+            "school": "1fb11751-53dd-4225-8f47-90e0045687fe"
+        }
+    },
+    {
+        "model": "library.career",
+        "pk": "e82b8f3c-a400-4005-bfd3-58f8c787d07b",
+        "fields": {
+            "name": "Educación, Mención Ciencias Sociales",
+            "school": "848b1672-fdc7-4160-94da-73732a74730b"
+        }
+    },
+    {
+        "model": "library.career",
+        "pk": "eb0d9a04-7a42-4eb5-9ece-3316d1232e25",
+        "fields": {
+            "name": "Ingeniería Industrial",
+            "school": "b9951e2c-4ce9-4b3a-a0ca-43b1b4ded039"
+        }
+    },
+    {
+        "model": "library.career",
+        "pk": "ff91365c-079d-4fee-a74a-4ba5c2b64051",
+        "fields": {
+            "name": "Enfermería",
+            "school": "fea09856-5e32-4a99-a711-b66eb5a5984a"
+        }
+    },
+    {
+        "model": "library.subject",
+        "pk": "46a52661-59e1-43cd-ad30-6add247885ca",
+        "fields": {
+            "name": "Investigación Educativa",
+            "career": [
+                "078d37ba-87a2-4d3b-be09-d61692611c22",
+                "0a24869f-72fb-41b3-bc8f-6883ee4ec46d",
+                "0eaa07e2-fbe6-4345-93a3-8f2a1e214103",
+                "25ea2b03-f845-451d-8f7d-dfbc15ea91cb",
+                "2668a821-8464-4fd0-ae14-bfc4086199f8",
+                "372f591e-4e6b-4531-b4f0-2ed42714e588",
+                "3cd67886-5dfb-46cd-bfd1-0b992eca5077",
+                "41efabac-d330-456f-8755-211e817c5f1a",
+                "5685834c-231c-4bf0-a12a-44ba61b78bcc",
+                "7a54240b-ab5d-4f23-9cdc-17aa55df83a5",
+                "7fdf40ad-900f-4639-8287-0006ea44feff",
+                "9d9d17b5-74a6-47a4-8c28-d9593942f92b",
+                "a87d32c4-06bd-473f-a774-e0df9e4392c9",
+                "b1e7bb1c-ff5f-4a43-b4f2-17315a9bcd3a",
+                "b81d8d1a-3b82-41f4-b2e2-0141862cd52e",
+                "d36a1232-a443-4e60-a0a5-1abf98e99ea6",
+                "da2fe196-6d95-4627-b7cc-70a08b1eb06f",
+                "e82b8f3c-a400-4005-bfd3-58f8c787d07b"
+            ]
+        }
+    },
+    {
+        "model": "library.theme",
+        "pk": "98e425b9-f7b9-4538-95e7-0c839d047eee",
+        "fields": {
+            "name": "Ense±anza",
+            "subject": "46a52661-59e1-43cd-ad30-6add247885ca"
+        }
+    },
+    {
+        "model": "library.license",
+        "pk": "dc44e003-7285-40b0-9dd9-ab2aa2c5120c",
+        "fields": {
+            "name": "N/A.",
+            "image": "",
+            "description": "",
+            "url": null
+        }
+    },
+    {
+        "model": "library.format",
+        "pk": "14c001cb-997e-4c70-b178-8bb78ca371e3",
+        "fields": {
+            "name": "JPEG (.jpg, .jpeg)"
+        }
+    },
+    {
+        "model": "library.format",
+        "pk": "2efab181-6216-4531-a1e2-504933c36e3d",
+        "fields": {
+            "name": "Photoshop (.psd, .pdd)"
+        }
+    },
+    {
+        "model": "library.format",
+        "pk": "39438246-932a-4f6b-9c02-1f4ca4a4ee98",
+        "fields": {
+            "name": "Video Estßndar (.mp4, .avi)"
+        }
+    },
+    {
+        "model": "library.format",
+        "pk": "3ee56328-7f09-4e12-9088-2233b27fb47f",
+        "fields": {
+            "name": "Video Quicktime (.mov, .qt)"
+        }
+    },
+    {
+        "model": "library.format",
+        "pk": "7fd05280-08d4-43b7-9a81-681aeff8e7b9",
+        "fields": {
+            "name": "HTML (.htm, .html)"
+        }
+    },
+    {
+        "model": "library.format",
+        "pk": "808f657d-0ae1-4a9f-b8b9-461502b8e4ca",
+        "fields": {
+            "name": "Microsoft PowerPoint (.ppt, .pptx)"
+        }
+    },
+    {
+        "model": "library.format",
+        "pk": "815fd895-9362-49bf-9a31-1a84e7720a9c",
+        "fields": {
+            "name": "Texto (.txt, .asc)"
+        }
+    },
+    {
+        "model": "library.format",
+        "pk": "8e52cc27-f9c2-4177-ba15-a0f4e763a87d",
+        "fields": {
+            "name": "XML (.xml)"
+        }
+    },
+    {
+        "model": "library.format",
+        "pk": "978560b3-7b3e-44ba-9809-3505b29a4ffb",
+        "fields": {
+            "name": "BMP (.bmp)"
+        }
+    },
+    {
+        "model": "library.format",
+        "pk": "a0eb0191-39e1-4d5b-b0c2-b22871a7e57b",
+        "fields": {
+            "name": "Microsoft Excel (.xls, .xlsx)"
+        }
+    },
+    {
+        "model": "library.format",
+        "pk": "a1a69bef-574e-4973-84c7-b483de20ed33",
+        "fields": {
+            "name": "EPUB (.epub)"
+        }
+    },
+    {
+        "model": "library.format",
+        "pk": "a791ca7e-6667-4a5b-afb6-93b9851ed246",
+        "fields": {
+            "name": "GIF (.gif)"
+        }
+    },
+    {
+        "model": "library.format",
+        "pk": "ae24dbc1-4b75-4554-b35a-3e5170b4f404",
+        "fields": {
+            "name": "TIFF (.tif, .tiff)"
+        }
+    },
+    {
+        "model": "library.format",
+        "pk": "b47cb453-f271-4228-a9c7-3d0162c6214b",
+        "fields": {
+            "name": "Audio MPEG (.mpa, .abs, .mpega)"
+        }
+    },
+    {
+        "model": "library.format",
+        "pk": "b9497925-07c8-4382-bbe4-461063b7da19",
+        "fields": {
+            "name": "Adobe PDF (.pdf)"
+        }
+    },
+    {
+        "model": "library.format",
+        "pk": "c4c679f8-3aef-4aaa-a56b-aa5a26bcdc5d",
+        "fields": {
+            "name": "Desconocido"
+        }
+    },
+    {
+        "model": "library.format",
+        "pk": "c8f2b499-5206-4081-b68f-51239ef4dded",
+        "fields": {
+            "name": "PNG (.png)"
+        }
+    },
+    {
+        "model": "library.format",
+        "pk": "c9a2b5ac-0a59-42d3-b69d-a7a7c0ea0c51",
+        "fields": {
+            "name": "Microsoft Word (.doc, .docx)"
+        }
+    },
+    {
+        "model": "library.format",
+        "pk": "d13a6068-3817-4ead-894f-92c37d343074",
+        "fields": {
+            "name": "Audio Estßndar (.au, .snd, .mp3)"
+        }
+    },
+    {
+        "model": "library.format",
+        "pk": "dffb31cd-ea9d-4f36-b195-424687248725",
+        "fields": {
+            "name": "CSS (.css)"
+        }
+    },
+    {
+        "model": "library.resource",
+        "pk": "a950f43d-8c30-4be2-b4ec-56182fe577b3",
+        "fields": {
+            "international_id": "HTTP://HDL.HANDLE.NET/123456789/8525",
+            "title": "Dominio de las TIC en la ense±anza de la matemßtica mediante proyecto Canaima educativo en la modalidad jóvenes y adultos",
+            "edition": null,
+            "publish_date": "2019-12-10",
+            "coverage_start": "2019-12-10",
+            "coverage_end": "2024-12-10",
+            "publisher": "ee9b28c9-c427-4e8f-b7ad-7470ec7d3879",
+            "abstract": "En latinoamericana y específicamente en Venezuela, el uso de las TIC en el ßmbito educativo ha generado un cambio, provocando de esta manera un aprendizaje significativo en los estudiantes, mßs a·n en las materias de alto nivel lógico como es el caso en el ßrea de Matemßtica. La presente investigación tiene como objetivo general Analizar el Dominio de Tecnologías de Información y Comunicación (TIC) de los estudiantes de cuarto a±o en la modalidad jóvenes y adultos en el ßrea de matemßtica mediante el proyecto Canaima educativo de la U.E. Bartolomé Salom municipio Puerto Cabello. La investigación se fundamentó en un nivel descriptivo bajo un dise±o de campo, no experimental, transeccional el cual fue realizado en el periodo escolar 2017-2018. Las teorías que sustentan esta investigación son: Teoría sociocultural de Vygotsky y Teoría del Conectivismo de George Siemens. La población estuvo comprendida en 120 estudiantes y la muestra fue de 46 estudiantes como técnica de recolección de datos se utilizó la encuesta y como instrumento el cuestionario tipo Likert, con cinco alternativas de respuesta, constituido por 18 ítems el cual fue validado por tres (03) expertos, y en el estudio piloto se obtuvo un índice de confiabilidad de 0.95. Para el anßlisis e interpretación de los resultados ejecutando un anßlisis estadístico en cada dimensión. Se concluyó que el 50% de los estudiantes poseen buen conocimiento acerca de las Tecnologías de la Información y Comunicación, a pesar de su buen conocimiento en las TIC, en lo que se refiere a resolver operaciones bßsicas en el ßrea de matemßtica estßn por debajo de lo esperado, igualmente cabe mencionar en cuanto a las funciones bßsicas del Proyecto Canaima Educativo manejo de Software y Hardware es casi nulo.",
+            "extension": "79 pßginas",
+            "language": "es",
+            "license": "dc44e003-7285-40b0-9dd9-ab2aa2c5120c",
+            "url": "http://riuc.bc.uc.edu.ve/handle/123456789/8525",
+            "location": "N/A.",
+            "adquisition_date": "2023-12-06",
+            "source": "529b60bf-b4cb-4cba-a92f-c3971d120c08",
+            "classification": "6f147a7b-a646-49a7-8174-b54d58b047d8",
+            "collection": "c8077758-b059-4b92-afac-9129e251590c",
+            "author": [
+                "70ea58f7-f3fa-4e5b-8727-1b6970d54b2c",
+                "f92cc62f-ab2b-4147-a2e5-06fed6e70b08"
+            ],
+            "format": [
+                "b9497925-07c8-4382-bbe4-461063b7da19"
+            ],
+            "faculty": [
+                "75ef5ece-28b1-4d27-afc3-034e2cbd799f"
+            ],
+            "school": [
+                "848b1672-fdc7-4160-94da-73732a74730b"
+            ],
+            "career": [
+                "0a24869f-72fb-41b3-bc8f-6883ee4ec46d",
+                "2668a821-8464-4fd0-ae14-bfc4086199f8"
+            ],
+            "subject": [
+                "46a52661-59e1-43cd-ad30-6add247885ca"
+            ],
+            "theme": [
+                "98e425b9-f7b9-4538-95e7-0c839d047eee"
+            ]
+        }
+    }
+]

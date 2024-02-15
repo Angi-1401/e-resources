@@ -26,7 +26,7 @@ class ResourceFilter(filters.FilterSet):
     author = filters.ChoiceFilter(
         label="Autor",
         choices=[(letter, letter) for letter in string.ascii_uppercase],
-        method="filter_by_letter",
+        method="filter_by_author",
     )
     publish_date = filters.NumberFilter(
         field_name="publish_date__year", label="Año de publicación", lookup_expr="exact"

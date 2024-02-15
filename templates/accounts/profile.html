@@ -21,15 +21,14 @@
                 <div class="row">
                   <div class="col-md-6 mb-3">
                     <div class="form-group">
-                      <label for="username">Cédula de Identidad</label>
-                      <input name="username" class="form-control" id="username" type="text" value="{{ profile.username }}" readonly>
+                      <label for="id_username">Cédula de Identidad</label>
                       {{ profile.username }}
                     </div>
                   </div>
                   <div class="col-md-6 mb-3">
                     <div class="form-group">
-                      <label for="email">Email</label>
-                      <input name="email" class="form-control" id="email" type="email" value="{{ profile.email }}" readonly>
+                      <label for="id_email">Email</label>
+                      {{ profile.email }}
                     </div>
                   </div>
                   <span class="text-center">¡No se altera! (Aún...)</span>
@@ -39,22 +38,22 @@
                 <div class="row">
                   <div class="col-md-6 mb-3">
                     <div>
-                      <label for="first_name">Nombres</label>
-                      <input name="first_name" class="form-control" id="first_name" type="text" placeholder="Ingresa tus nombres" value="{{ profile.first_name }}" required>
+                      <label for="id_first_name">Nombres</label>
+                      {{ profile.first_name }}
                     </div>
                   </div>
                   <div class="col-md-6 mb-3">
                     <div>
-                      <label for="last_name">Apellidos</label>
-                      <input name="last_name" class="form-control" id="last_name" type="text" placeholder="También tus apellidos" value="{{ profile.last_name }}" required>
+                      <label for="id_last_name">Apellidos</label>
+                      {{ profile.last_name }}
                     </div>
                   </div>
                 </div>
                 <div class="row">
                   <div class="col-md-6 mb-3">
                     <div class="form-group">
-                      <label for="date_joined">Fecha de Registro</label>
-                      <input name="date_joined" class="form-control" id="date_joined" value="{{ profile.date_joined }}" readonly>
+                      <label for="id_date_joined">Fecha de Registro</label>
+                      {{ profile.date_joined }}
                     </div>
                   </div>
                 </div>

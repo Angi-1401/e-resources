@@ -8,9 +8,9 @@ from apps.accounts.models import User
 @receiver(post_migrate)
 def create_main_groups_and_users(sender, **kwargs):
     admin_group, created = Group.objects.get_or_create(name="Administrador")
-    moderador_group, created = Group.objects.get_or_create(name="Moderador")
-    docente_group, created = Group.objects.get_or_create(name="Docente")
-    lector_group, created = Group.objects.get_or_create(name="Lector")
+    moderator_group, created = Group.objects.get_or_create(name="Moderador")
+    teacher_group, created = Group.objects.get_or_create(name="Docente")
+    reader_group, created = Group.objects.get_or_create(name="Lector")
 
     admin, created = User.objects.get_or_create(
         username="V00000000", is_staff=True, is_superuser=True
@@ -19,20 +19,20 @@ def create_main_groups_and_users(sender, **kwargs):
     admin.groups.add(admin_group)
     admin.save()
 
-    moderador, created = User.objects.get_or_create(username="V00000001")
-    moderador.set_password("V00000001")
-    moderador.groups.add(moderador_group)
-    moderador.save()
+    moderator, created = User.objects.get_or_create(username="V00000001")
+    moderator.set_password("V00000001")
+    moderator.groups.add(moderator_group)
+    moderator.save()
 
-    docente, created = User.objects.get_or_create(username="V00000002")
-    docente.set_password("V00000002")
-    docente.groups.add(docente_group)
-    docente.save()
+    teacher, created = User.objects.get_or_create(username="V00000002")
+    teacher.set_password("V00000002")
+    teacher.groups.add(teacher_group)
+    teacher.save()
 
-    lector, created = User.objects.get_or_create(username="V00000003")
-    lector.set_password("V00000003")
-    lector.groups.add(lector_group)
-    lector.save()
+    reader, created = User.objects.get_or_create(username="V00000003")
+    reader.set_password("V00000003")
+    reader.groups.add(reader_group)
+    reader.save()
 
 
 @receiver(post_save, sender=User)

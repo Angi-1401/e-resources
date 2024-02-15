@@ -37,7 +37,7 @@ class Classification(models.Model):
 
     class Meta:
         verbose_name = _("Clasificación")
-        verbose_name_plural = _("Clasificacións")
+        verbose_name_plural = _("Clasificaciones")
 
     def __str__(self):
         return self.name

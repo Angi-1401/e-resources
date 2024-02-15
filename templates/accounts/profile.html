@@ -22,13 +22,13 @@
                   <div class="col-md-6 mb-3">
                     <div class="form-group">
                       <label for="username">Cédula de Identidad</label>
-                      <input name="username" class="form-control" id="username" type="username" value="{{ profile.username }}" readonly />
+                      <input name="username" class="form-control" id="username" type="text" value="{{ profile.username }}" readonly>
                     </div>
                   </div>
                   <div class="col-md-6 mb-3">
                     <div class="form-group">
                       <label for="email">Email</label>
-                      <input name="email" class="form-control" id="email" type="email" value="{{ profile.email }}" readonly />
+                      <input name="email" class="form-control" id="email" type="email" value="{{ profile.email }}" readonly>
                     </div>
                   </div>
                   <span class="text-center">¡No se altera! (Aún...)</span>
@@ -39,13 +39,13 @@
                   <div class="col-md-6 mb-3">
                     <div>
                       <label for="first_name">Nombres</label>
-                      <input name="first_name" class="form-control" id="first_name" type="text" placeholder="Ingresa tus nombres" value="{{ profile.first_name }}" required />
+                      <input name="first_name" class="form-control" id="first_name" type="text" placeholder="Ingresa tus nombres" value="{{ profile.first_name }}" required>
                     </div>
                   </div>
                   <div class="col-md-6 mb-3">
                     <div>
                       <label for="last_name">Apellidos</label>
-                      <input name="last_name" class="form-control" id="last_name" type="text" placeholder="También tus apellidos" value="{{ profile.last_name }}" required />
+                      <input name="last_name" class="form-control" id="last_name" type="text" placeholder="También tus apellidos" value="{{ profile.last_name }}" required>
                     </div>
                   </div>
                 </div>
@@ -53,7 +53,7 @@
                   <div class="col-md-6 mb-3">
                     <div class="form-group">
                       <label for="date_joined">Fecha de Registro</label>
-                      <input name="date_joined" class="form-control" id="date_joined" value="{{ profile.date_joined }}" readonly />
+                      <input name="date_joined" class="form-control" id="date_joined" value="{{ profile.date_joined }}" readonly>
                     </div>
                   </div>
                 </div>

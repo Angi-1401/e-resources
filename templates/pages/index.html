@@ -44,7 +44,7 @@
               {% endif %}
               <div class="col d-flex">
                 <div class="card card-body flex-fill bg-white border-light shadow-sm mb-4">
-                  <a href="#" class="stretched-link">{{ collection.name }}</a>
+                  <a href="{% url 'resource_list' %}?collection={{ collection.id }}" class="stretched-link">{{ collection.name }}</a>
                 </div>
               </div>
               {% if forloop.last %}

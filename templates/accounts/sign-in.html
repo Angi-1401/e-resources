@@ -29,11 +29,6 @@
                     <span class="text-danger">{{ error }}</span>
                   {% endfor %}
                 {% endif %}
-                {% if form.non_field_errors %}
-                  {% for error in form.non_field_errors %}
-                    <span class="text-danger">{{ error }}</span>
-                  {% endfor %}
-                {% endif %}
                 {% for field in form %}
                   <div class="form-group mb-4">
                     <label for="email">{{ field.label }}</label>

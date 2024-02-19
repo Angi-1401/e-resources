@@ -77,7 +77,11 @@ class ResourceFilter(filters.FilterSet):
         )
 
     def universal_search(self, queryset, name, value):
-        return queryset.filter(Q(title__icontains=value))
+        return queryset.filter(
+            Q(title__icontains=value)
+            | Q(author__first_name__icontains=value)
+            | Q(author__last_name__icontains=value)
+        )
 
     def filter_by_author(self, queryset, name, value):
         if value:

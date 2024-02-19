@@ -16,8 +16,8 @@
             <div class="bootstrap-big-icon d-none d-lg-block">
               {% include 'includes/svg_uc.html' %}
             </div>
-            <h1 class="fw-bolder display-2">Título aquí</h1>
-            <h2 class="lead fw-normal text-muted mb-4 px-lg-20">Línea bonita de texto con una breve descripción del sitio</h2>
+            <h1 class="fw-bolder display-2">Publicaciones Electrónicas</h1>
+            <h2 class="lead fw-normal text-muted mb-4 px-lg-20">Todo el saber al alcance de su mano</h2>
           </div>
         </div>
       </div>
@@ -43,8 +43,8 @@
                 <div class="row">
               {% endif %}
               <div class="col d-flex">
-                <div class="card card-body flex-fill bg-white border-light shadow-sm mb-4">
-                  <a href="{% url 'resource_list' %}?collection={{ collection.id }}" class="stretched-link">{{ collection.name }}</a>
+                <div class="card card-body d-flex align-items-center justify-content-center flex-fill bg-white border-light shadow-sm mb-4">
+                  <a href="{% url 'resource_list' %}?collection={{ collection.id }}" class="stretched-link text-center">{{ collection.name }}</a>
                 </div>
               </div>
               {% if forloop.last %}
@@ -56,7 +56,7 @@
           <div class="col-4">
             <h3 class="mb-4 text-white">Recomendados</h3>
             <div class="card card-body bg-white border-light shadow-sm mb-4">
-              <p class="card-text">;D</p>
+              <p class="card-text"></p>
             </div>
           </div>
         </div>

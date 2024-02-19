@@ -21,8 +21,8 @@
             <div class="bootstrap-big-icon d-none d-lg-block">
               {% include 'includes/svg_uc.html' %}
             </div>
-            <h1 class="fw-bolder display-2">Título aquí</h1>
-            <h2 class="lead fw-normal text-muted mb-4 px-lg-20">Línea bonita de texto con una breve descripción del sitio</h2>
+            <h1 class="fw-bolder display-2">Publicaciones Electrónicas</h1>
+            <h2 class="lead fw-normal text-muted mb-4 px-lg-20">Todo el saber al alcance de su mano</h2>
             <!-- Search Bar -->
             <div class="mb-3">
               <form method="get" class="form-inline" hx-get="{% url 'resource_list' %}" hx-target="div.table-container" hx-swap="outerHTML" hx-indicator=".progress">{{ filter.form.title|as_crispy_field }}</form>
